@@ -8,12 +8,22 @@ echo 'I think the file should be updating on the server<br>';
 
 echo "<p>Does this even work?</p>";
 
-function simple($foo){
+
+
+
+
+
+
+
+
+
+
+function addition($foo){
 	for ($i = 0 ; $i < 10 ; $i++){
 	echo $foo + $foo + $i ."<br>";
 	}
 }
 
-simple(5);
+addition(5);
 echo "<br>";
-simple(5);
+addition(5);
