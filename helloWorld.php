@@ -15,3 +15,5 @@ function simple($foo){
 }
 
 simple(5);
+echo "<br>";
+simple(5);
