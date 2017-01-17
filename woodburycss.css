@@ -1189,6 +1189,7 @@ display:inlne-block;
 float:left;
 padding:0px 10px;
 height:1500px;
+border-left: solid 2px #DDDDDD;
 }
 
 .atbdpageb h1{
