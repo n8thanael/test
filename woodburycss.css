@@ -1,3 +1,377 @@
+/***** Flyer Page Styles *****/
+
+#flyout{
+  margin:10px 7px 10px 7px;
+  float:left;
+  display:inline;
+  background-color:#FFFF00;
+}
+
+#flybox {
+  background-repeat: no-repeat;
+  width: 290px;
+  background-position: left center;
+  height:215px;
+  border-top:solid 2px #d1d2d4;
+  border-left:solid 2px #d1d2d4;
+  border-right:solid 2px #d1d2d4;  
+  background-color:#FFFFFF;
+}
+
+#flybox:hover {
+ opacity: 0.8;
+}
+
+
+#flylogo{
+  width:40px;
+  background-color:#000000;
+  height:40px;
+  margin-left:-8px;
+  margin-top: -8px;  
+  display:block;
+/*  margin-top:160px; */
+  float:left;
+}
+
+#flytext{
+width:250px;
+height:150px;
+float:right;
+text-align:right;
+}
+
+#flyhighlight{
+  width:290px;
+  background-color:rgba(209,210,212,0.2);
+  display:inline;
+  float:right;
+  color:#FFFFFF;
+  margin-top:10px;
+  text-align:center;
+  height:8px;
+  border-bottom:solid #d1d2d4 2px;
+  
+}
+
+#flytri{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 15px 0 0 10px;
+border-color: transparent transparent transparent #CC0000;
+position:relative;
+left:292px;
+top:135px;
+}
+
+#flytrilogo{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0px 6px 10px 0px;
+border-color: transparent #666666 transparent transparent;
+position:relative;
+left:0px;
+top:40px;
+}
+
+#flyhighlight span{
+  background-color:#b1b1b1;
+  color:#FFFFFF;
+  Font-size:13px;
+  padding-left:3px;
+  padding-right:3px;  
+}
+
+#flytitle {
+  width:110px;
+  font-size:14px;
+  float:right;
+  text-align:left;
+  background-color:rgba(255,255,255,0.9);
+  padding:3px;
+  display:block;
+}
+
+#flysplit {
+width:290px;
+float:right;
+font-size:1px;
+}
+
+#flybox p {
+  width:90px;
+  font-size:10px;
+  float:right;
+  text-align:left;
+  display:block;
+}
+
+#flytext strike{
+  font-size:18px;
+  margin-left:5px;
+}
+
+#flyprice {
+  margin-right:-12px;  
+  padding:3px 3px 3px 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-right:solid 20px #ff6b00;
+  font-size:30px;
+  display:inline;
+  float:right;
+  background-color:#ff6b00;
+  color:#FFFFFF;
+}
+
+#flyprice sup {
+  font-size:12px;
+}
+
+#flyout2{
+  margin:5px;
+  padding:13px 7px 0px 12px;
+  float:left;
+  display:inline;
+  font: normal 11px "Roboto";
+  border-collapse: collapse;
+  border-bottom:2px solid #FFFFFF;
+  border-right:2px solid #FFFFFF;
+}
+
+#flybox2 p {
+  width:120px;
+  font-size:10px;
+  float:right;
+  text-align:left;
+  display:block;
+  margin-top:0px;
+}
+
+#flybox2 {
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  width: 330px;
+  background-position: left center;
+  height:220px;
+  background-color:#FFFFFF;
+  margin-top:-5px;
+
+}
+
+#flytitle2 {
+  width:120px;
+  font-size:14px;
+  float:right;
+  text-align:left;
+  background-color:rgba(255,255,255,0.9);
+  padding:3px;
+  display:block;
+  font-weight: 900;
+}
+
+#flytext2 {
+  width:130px;
+  height:160px;
+  float:right;
+  text-align:right;
+}
+
+#flytext2 strike{
+  font-size:16px;
+  margin-left:5px;
+}
+
+#flyhighlight2{
+  width:330px;
+  display:inline;
+  float:right;
+  margin-top:3px;
+  text-align:right;
+  margin-right:-9px;
+  height:8px;
+}
+
+#flyhighlight2 span{
+  background-color:#FF0000;
+  font-weight:700;
+  color:#FFFFFF;
+  Font-size:13px;
+  padding-left:5px;
+  padding-right:5px;  
+}
+
+
+#flyprice2 {
+  margin-right:6px;
+  font-size:50px;
+  display:inline;
+  float:right;
+  color:#FF0000;
+  font-weight: 900;
+  height:55px;
+  font-style: italic;
+  letter-spacing: -3px;
+  margin-top:-15px;
+  width:320px;
+  text-align:right;
+}
+
+#flyprice2 sup {
+  font-size:25px;
+  letter-spacing: -2px;
+  margin-left:3px;
+}
+
+#flylogo2{
+  margin-left:-11px;
+  margin-top: -7px;  
+  display:block;
+  float:left;
+  width:80px;
+  height:50px;
+}
+
+#flylogo2 img{
+max-width:100%;
+max-height:100%;
+}
+
+#flylogo2 div{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0px 8px 10px 0px;
+border-color: transparent #AAAAAA transparent transparent;
+position:relative;
+left:0px;
+top:42px;
+}
+
+
+#flyout3{
+  margin:5px;
+  padding:13px 7px 0px 12px;
+  float:left;
+  display:inline;
+  font: normal 11px "Roboto";
+  border-collapse: collapse;
+  border-bottom:2px solid #FFFFFF;
+  border-right:2px solid #FFFFFF;
+}
+
+#flybox3 p {
+  width:120px;
+  font-size:10px;
+  float:right;
+  text-align:left;
+  display:block;
+  margin-top:3px;
+  margin-left:5px;
+}
+
+#flybox3 {
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 681px;
+  background-position: left center;
+  height:100px;
+  background-color:#FFFFFF;
+
+}
+
+#flytitle3 {
+  width:270px;
+  font-size:14px;
+  float:right;
+  text-align:left;
+  background-color:rgba(255,255,255,0.9);
+  padding:3px;
+  display:block;
+  font-weight: 900;
+}
+
+#flytext3 {
+  width:270px;
+  height:100px;
+  float:right;
+  text-align:right;
+}
+
+#flytext3 strike{
+  font-size:14px;
+  margin-left:5px;
+}
+
+#flyhighlight3{
+  width:330px;
+  display:inline;
+  float:right;
+  margin-top:-5px;
+  text-align:right;
+  margin-right:-9px;
+  height:8px;
+}
+
+#flyhighlight3 span{
+  background-color:#FF0000;
+  font-weight:700;
+  color:#FFFFFF;
+  Font-size:13px;
+  padding-left:5px;
+  padding-right:5px;  
+}
+
+
+#flyprice3 {
+  margin-right:15px;
+  font-size:50px;
+  display:inline;
+  float:right;
+  color:#FF0000;
+  font-weight: 900;
+  height:50px;
+  font-style: italic;
+  letter-spacing: -3px;
+  margin-top:-12px;
+  width:130px;
+  text-align:right;
+}
+
+#flyprice3 sup {
+  font-size:25px;
+  letter-spacing: -2px;
+  margin-left:3px;
+}
+
+#flylogo3{
+  margin-left:-11px;
+  margin-top: -12px; 
+  display:block;
+  float:left;
+  width:80px;
+  height:50px;
+}
+
+#flylogo3 img{
+max-width:100%;
+max-height:100%;
+}
+
+#flylogo3 div{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0px 8px 10px 0px;
+border-color: transparent #AAAAAA transparent transparent;
+position:relative;
+left:0px;
+top:42px;
+}
+
+
 #n8logotopdiv {
 float: left;
 left: 12px;
