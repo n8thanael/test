@@ -1161,3 +1161,41 @@ margin:6px;
 }
 
 
+/*** All The Best Deals ***/
+
+.atbdpagesegment{
+float:left;
+width:650px;
+display:block;
+margin-bottom:10px;
+}
+
+.atbdpagesegment a:visited{ color: #000000; }
+.atbdpagesegment a:hover{ color: #ff6b00; }
+.atbdpagesegment a:active{ color: #000000; }
+.atbdpagesegment a:link{ color: #000000; }
+
+.atbdpagea{
+display:inlne-block;
+float:left;
+padding:10px;
+height:80px;
+}
+
+.atbdpageb{
+display:inlne-block;
+float:left;
+padding:10px;
+height:80px;
+}
+
+.atbdpageb h1{
+font-size:24px
+}
+
+.atbdpageb p{
+font-size:12px
+}
+.atbdsub {
+font-size:10px;
+}
