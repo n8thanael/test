@@ -1061,7 +1061,7 @@ width:610px;
 }
 
 #cat_right {
-width:550px;
+width:600px;
 }
 
 #cat_right ul{
@@ -1178,15 +1178,16 @@ margin-bottom:10px;
 .atbdpagea{
 display:inlne-block;
 float:left;
-padding:10px;
-height:80px;
+padding:30px 10px;
+height:150px;
+width: 200px;
 }
 
 .atbdpageb{
 display:inlne-block;
 float:left;
-padding:10px;
-height:80px;
+padding:0px 10px;
+height:1500px;
 }
 
 .atbdpageb h1{
