@@ -1166,7 +1166,7 @@ margin:6px;
 
 .atbdpagesegment{
 float:left;
-width:650px;
+width:600px;
 display:block;
 margin-bottom:10px;
 }
@@ -1177,18 +1177,19 @@ margin-bottom:10px;
 .atbdpagesegment a:link{ color: #000000; }
 
 .atbdpagea{
-display:inlne-block;
+display:inline-block;
 float:left;
 padding:30px 10px;
 height:150px;
-width: 200px;
+width:200px;
 }
 
 .atbdpageb{
-display:inlne-block;
+display:inline-block;
 float:left;
 padding:0px 10px;
-height:1500px;
+height:150px;
+width:390px;
 border-left: solid 2px #DDDDDD;
 }
 
