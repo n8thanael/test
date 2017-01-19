@@ -565,6 +565,15 @@ font-size:24px
 .atbdpageb p{
 font-size:12px
 }
+
 .atbdsub {
 font-size:10px;
+}
+
+/*** table mods ***/
+.5padding tr, td{
+	padding:5px;
+}
+.0padding tr, td{
+	padding:0px;
 }
