@@ -394,23 +394,25 @@ padding:5px;
 /* -------- Categories / Info Pages -------*/
 
 #cat_ol{
-padding:0px 0px 10px 40px;
+padding:0px 0px 0px 20px;
 display:block;
-width:500px;
+width:550px;
 }
 
 #cat_ul li{
-width:500px;
+width:550px;
 }
 
 #cat_ul{
-padding:0px 0px 10px 40px;
+width:550px;
+padding:0px 0px 0px 20px;
 display:block;
 list-style-type: circle;
 width:inherit;
 }
 
 #cat_p{
+width:550px;
 padding:0px 0px 0px 0px;
 width:inherit;
 }
@@ -422,20 +424,17 @@ padding:5px 0px 5px 0px;}
 #cat_table{
 padding:0px 0px 50px 0px;
 display:block;
-width:610px;
+width:600px;
 }
 
 #cat_right {
-width:600px;
+width:580px;
 padding: 0px;
-}
-
-#cat_right ul{
-list-style-type: none;
 }
 
 #cat_right h3{
 padding:0px 0px 5px 0px;
+width:550px;
 font-size:18px;
 color:#ff6b00;
 width:inherit;
@@ -462,37 +461,6 @@ width:inherit;
 #cat_top_container{
 padding-bottom:30px;
 }
-
-/*****  Notify Me Box *****/
-/* ORIGINAL:  #notifyMeProdImg		{margin: 0px 10px 0px 0px;}  **/
-#notifyMeProdImg		{padding: 0px 0px 0px 20px;}
-
-
-/*****  Bargain Blast Background Image  *****/
-#bb-bgimg {display:block;background-image:url("https://www.woodburyoutfitters.com/cms/default/assets/Image/BargainBlast_Form_Backdrop.jpg");width:680px;height:330px;padding:13px 0px 0px 13px;background-repeat:no-repeat;margin-left:-40px;}
-
-/***** GIVE-A-WAY *******/
-#GAW	{
-background-image: url('https://www.woodburyoutfitters.com/images/GAW/bgi_sept_2.gif');
-display:block;
-width:540px;
-float:left;
-background-repeat:no-repeat;
-background-color:#FFFFFF;
-height:180px;
-padding:25px;
-margin:10px;} 
-
-#GAWin	{
-float:left;
-font-size:35px;
-line-height:35px;
-width:230px;}
- 
-#GAWsm	{
-padding:10px;
-float:left;}
-
 
 #cat_ol li{
 width:500px;
@@ -525,6 +493,36 @@ display:inline-block;
 font-size:11px;
 margin:6px;
 }
+
+/*****  Notify Me Box *****/
+/* ORIGINAL:  #notifyMeProdImg		{margin: 0px 10px 0px 0px;}  **/
+#notifyMeProdImg		{padding: 0px 0px 0px 20px;}
+
+
+/*****  Bargain Blast Background Image  *****/
+#bb-bgimg {display:block;background-image:url("https://www.woodburyoutfitters.com/cms/default/assets/Image/BargainBlast_Form_Backdrop.jpg");width:680px;height:330px;padding:13px 0px 0px 13px;background-repeat:no-repeat;margin-left:-40px;}
+
+/***** GIVE-A-WAY *******/
+#GAW	{
+background-image: url('https://www.woodburyoutfitters.com/images/GAW/bgi_sept_2.gif');
+display:block;
+width:540px;
+float:left;
+background-repeat:no-repeat;
+background-color:#FFFFFF;
+height:180px;
+padding:25px;
+margin:10px;} 
+
+#GAWin	{
+float:left;
+font-size:35px;
+line-height:35px;
+width:230px;}
+ 
+#GAWsm	{
+padding:10px;
+float:left;}
 
 
 /*** All The Best Deals ***/
@@ -571,9 +569,16 @@ font-size:10px;
 }
 
 /*** table mods ***/
-table.5padding td, th{
-	padding:5px;
+
+table.fivepadding, table.zeropadding {
+	border: 0px solid;
 }
-table.0padding td, th{
+
+table.fivepadding td, th{
+	padding:5px;
+	border:0px solid;
+}
+table.zeropadding td, th{
 	padding:0px;
+	border:0px solid;
 }
