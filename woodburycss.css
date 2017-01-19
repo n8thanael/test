@@ -464,6 +464,7 @@ padding-bottom:30px;
 
 #cat_ol li{
 width:500px;
+padding:5px;
 } 
 
 #cat_ol li:nth-child(2n+0) {
@@ -568,6 +569,57 @@ font-size:12px
 font-size:10px;
 }
 
+/*** 90 Days Same as Cash ***/
+
+ul.financing {
+list-style-type: none;
+}
+
+.financing li span{
+font-size: 20px;
+padding: 10px;
+display: inline-block;
+vertical-align: top;
+font-weight: 900;
+}
+.financing li p{
+padding: 6px;
+font-size: 20px;
+display: inline-block;
+width: 446px;
+line-height: 30px;
+margin:0px;
+}
+
+#financebutton{
+background-color: #FF6B00;
+padding: 14px 40px 14px 40px;
+font-size: 27px;
+width: 400px;
+color: #FFFFFF;
+font-weight: 900;
+border-radius: 12px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+display: inline-block;
+margin-top: -3px;
+margin-left: 6px;
+}
+
+#financebutton:hover{
+background-color: #fd9a1a;
+}
+
+#financeli {
+background-color: #b74d00;
+padding: 14px;
+margin-top: -3px;
+margin-left: -4px;
+margin-right: -10px;
+color: #FFFFFF;
+display: inline-block;
+
+
 /*** table mods ***/
 
 table.fivepadding, table.zeropadding {
@@ -582,3 +634,4 @@ table.zeropadding td, th{
 	padding:0px;
 	border:0px solid;
 }
+
