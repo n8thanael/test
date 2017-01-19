@@ -635,6 +635,11 @@ table.zeropadding td, th{
 	border:0px solid;
 }
 
+table.staggergrey td:nth-child(2n+0) {
+background-color:#EEEEEE;
+}
+
+
 /****  Bargain Blast Signup Form ****/
 
 .ctct-custom-form {
