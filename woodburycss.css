@@ -571,9 +571,9 @@ font-size:10px;
 }
 
 /*** table mods ***/
-.5padding tr, td{
+.5padding td, th{
 	padding:5px;
 }
-.0padding tr, td{
+.0padding td, th{
 	padding:0px;
 }
