@@ -618,7 +618,7 @@ margin-left: -4px;
 margin-right: -10px;
 color: #FFFFFF;
 display: inline-block;
-
+}
 
 /*** table mods ***/
 
@@ -634,7 +634,6 @@ table.zeropadding td, th{
 	padding:0px;
 	border:0px solid;
 }
-
 
 /****  Bargain Blast Signup Form ****/
 
